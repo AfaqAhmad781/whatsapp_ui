@@ -60,8 +60,45 @@ class _HomeScreenState extends State<HomeScreen> {
                 );
               }),
             ),
-            Text('Status'),
-            Text('Calls'),
+            ListView.builder(
+              itemCount: 15,
+              itemBuilder: ((context, index) {
+                return ListTile(
+                  leading: Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: Colors.green,
+                        width: 3
+                      )
+                    ),
+                    child: CircleAvatar(
+                      backgroundImage: NetworkImage(
+                        'https://cdn.britannica.com/67/126567-050-A5C3A312/Paulo-Coelho-departure-themes-thriller-serial-killer-2008.jpg'
+                      ),
+                    ),
+                  ),
+                  title: Text('Paulo Coelho'),
+                  subtitle: Text('43 mints ago'),
+                  trailing: Icon(Icons.donut_large),
+                );
+              }),
+            ),
+            ListView.builder(
+              itemCount: 15,
+              itemBuilder: ((context, index) {
+                return ListTile(
+                  leading: CircleAvatar(
+                    backgroundImage: NetworkImage(
+                      'https://cdn.britannica.com/67/126567-050-A5C3A312/Paulo-Coelho-departure-themes-thriller-serial-killer-2008.jpg'
+                    ),
+                  ),
+                  title: Text('Paulo Coelho'),
+                  subtitle: Text('You missed a call'),
+                  trailing: Icon(Icons.phone),
+                );
+              }),
+            ),
           ],
         ),
       ),

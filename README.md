@@ -1,17 +1,11 @@
+# Flutter bootcamp 2022 From Asif Taj
+Here in this commit, chapter no 6 is completed, 
+i will add more commits once i get time and change things into this project.
 # massenger_app_ui
 
-A new Flutter project.
+This is a little copy of Whatsapp massenger app UI,
+I made it just for learning purpose.
+
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## More to Learn
